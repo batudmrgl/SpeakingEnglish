@@ -1,0 +1,48 @@
+name: iOS CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    name: Build and Test iOS Prototype
+    runs-on: macos-15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Show Xcode version
+        run: xcodebuild -version
+
+      - name: Show available simulators
+        run: xcrun simctl list devices available
+
+      - name: Select iPhone simulator
+        id: simulator
+        run: |
+          DEVICE_NAME=$(xcrun simctl list devices available | awk '/iPhone/ && /Shutdown|Booted/ { sub(/^[ \t]*/, "", $0); sub(/[ \t]*\(.*/, "", $0); print; exit }')
+          if [ -z "$DEVICE_NAME" ]; then
+            echo "No available iPhone simulator found"
+            exit 1
+          fi
+          echo "device=$DEVICE_NAME" >> "$GITHUB_OUTPUT"
+          echo "Selected simulator: $DEVICE_NAME"
+
+      - name: Build and test
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -project iOS/EnglishCoachApp/EnglishCoachApp.xcodeproj \
+            -scheme EnglishCoachApp \
+            -destination "platform=iOS Simulator,name=${{ steps.simulator.outputs.device }}" \
+            -resultBundlePath TestResults/EnglishCoachApp.xcresult \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Upload test result bundle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: EnglishCoachApp-xcresult
+          path: TestResults/EnglishCoachApp.xcresult
+          if-no-files-found: ignore
