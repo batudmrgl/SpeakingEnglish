@@ -103,7 +103,8 @@ try {
 $excludedDirectories = @(
     ".git",
     ".agents",
-    ".codex"
+    ".codex",
+    "artifacts"
 )
 
 $files = Get-ChildItem -Path $root -Recurse -File | Where-Object {

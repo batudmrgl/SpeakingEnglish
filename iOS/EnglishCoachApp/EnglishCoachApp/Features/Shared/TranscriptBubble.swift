@@ -20,11 +20,10 @@ struct TranscriptBubble: View {
             .font(.body)
             .padding(12)
             .background(background, in: RoundedRectangle(cornerRadius: 8))
-            .foregroundStyle(message.role == .assistant ? .primary : .white)
+            .foregroundColor(message.role == .assistant ? Color.primary : Color.white)
     }
 
     private var background: Color {
         message.role == .assistant ? Color(.secondarySystemBackground) : Color.blue
     }
 }
-
