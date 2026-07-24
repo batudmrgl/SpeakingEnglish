@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000001 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* AppRootView.swift */; };
+		A00000000000000000000002 /* EnglishCoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* EnglishCoachApp.swift */; };
+		A00000000000000000000003 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000003 /* AppConfiguration.swift */; };
+		A00000000000000000000004 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* AppContainer.swift */; };
+		A00000000000000000000005 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000005 /* AppError.swift */; };
+		A00000000000000000000006 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000006 /* AppState.swift */; };
+		A00000000000000000000007 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000007 /* Coding.swift */; };
+		A00000000000000000000008 /* MockExerciseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* MockExerciseProvider.swift */; };
+		A00000000000000000000009 /* LessonHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000009 /* LessonHistoryStore.swift */; };
+		A00000000000000000000010 /* CEFRLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000010 /* CEFRLevel.swift */; };
+		A00000000000000000000011 /* CorrectionIntensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000011 /* CorrectionIntensity.swift */; };
+		A00000000000000000000012 /* LearningGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000012 /* LearningGoal.swift */; };
+		A00000000000000000000013 /* PracticeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000013 /* PracticeModule.swift */; };
+		A00000000000000000000014 /* SpeakerRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000014 /* SpeakerRole.swift */; };
+		A00000000000000000000015 /* ConversationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000015 /* ConversationModels.swift */; };
+		A00000000000000000000016 /* ExerciseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000016 /* ExerciseModels.swift */; };
+		A00000000000000000000017 /* LessonReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000017 /* LessonReport.swift */; };
+		A00000000000000000000018 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000018 /* UserProfile.swift */; };
+		A00000000000000000000019 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000019 /* ConversationView.swift */; };
+		A00000000000000000000020 /* ConversationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000020 /* ConversationViewModel.swift */; };
+		A00000000000000000000021 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000021 /* ExerciseView.swift */; };
+		A00000000000000000000022 /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000022 /* ExerciseViewModel.swift */; };
+		A00000000000000000000023 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000023 /* HistoryView.swift */; };
+		A00000000000000000000024 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000024 /* HomeView.swift */; };
+		A00000000000000000000025 /* ListeningExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000025 /* ListeningExerciseView.swift */; };
+		A00000000000000000000026 /* ListeningExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000026 /* ListeningExerciseViewModel.swift */; };
+		A00000000000000000000027 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000027 /* OnboardingView.swift */; };
+		A00000000000000000000028 /* LessonReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000028 /* LessonReportView.swift */; };
+		A00000000000000000000029 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000029 /* SettingsView.swift */; };
+		A00000000000000000000030 /* CorrectionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000030 /* CorrectionCardView.swift */; };
+		A00000000000000000000031 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000031 /* PrimaryButton.swift */; };
+		A00000000000000000000032 /* TranscriptBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000032 /* TranscriptBubble.swift */; };
+		A00000000000000000000033 /* ViewModelHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000033 /* ViewModelHolder.swift */; };
+		A00000000000000000000034 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000034 /* AIService.swift */; };
+		A00000000000000000000035 /* BackendAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000035 /* BackendAIService.swift */; };
+		A00000000000000000000036 /* MockAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000036 /* MockAIService.swift */; };
+		A00000000000000000000037 /* AppleSpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000037 /* AppleSpeechRecognitionService.swift */; };
+		A00000000000000000000038 /* SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000038 /* SpeechRecognitionService.swift */; };
+		A00000000000000000000039 /* AppleTextToSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000039 /* AppleTextToSpeechService.swift */; };
+		A00000000000000000000040 /* TextToSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000040 /* TextToSpeechService.swift */; };
+		A00000000000000000000041 /* MockAIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000041 /* MockAIServiceTests.swift */; };
+		A00000000000000000000042 /* TeacherResponseParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000042 /* TeacherResponseParsingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C00000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00000000000000000000001;
+			remoteInfo = EnglishCoachApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000001 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppRootView.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* EnglishCoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/EnglishCoachApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000003 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Config/AppConfiguration.swift; sourceTree = "<group>"; };
+		B00000000000000000000004 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/DI/AppContainer.swift; sourceTree = "<group>"; };
+		B00000000000000000000005 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Errors/AppError.swift; sourceTree = "<group>"; };
+		B00000000000000000000006 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/State/AppState.swift; sourceTree = "<group>"; };
+		B00000000000000000000007 /* Coding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data/API/Coding.swift; sourceTree = "<group>"; };
+		B00000000000000000000008 /* MockExerciseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data/Mock/MockExerciseProvider.swift; sourceTree = "<group>"; };
+		B00000000000000000000009 /* LessonHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data/Persistence/LessonHistoryStore.swift; sourceTree = "<group>"; };
+		B00000000000000000000010 /* CEFRLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain/Enums/CEFRLevel.swift; sourceTree = "<group>"; };
+		B00000000000000000000011 /* CorrectionIntensity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain/Enums/CorrectionIntensity.swift; sourceTree = "<group>"; };
+		B00000000000000000000012 /* LearningGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain/Enums/LearningGoal.swift; sourceTree = "<group>"; };
+		B00000000000000000000013 /* PracticeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain/Enums/PracticeModule.swift; sourceTree = "<group>"; };
+		B00000000000000000000014 /* SpeakerRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain/Enums/SpeakerRole.swift; sourceTree = "<group>"; };
+		B00000000000000000000015 /* ConversationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain/Models/ConversationModels.swift; sourceTree = "<group>"; };
+		B00000000000000000000016 /* ExerciseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain/Models/ExerciseModels.swift; sourceTree = "<group>"; };
+		B00000000000000000000017 /* LessonReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain/Models/LessonReport.swift; sourceTree = "<group>"; };
+		B00000000000000000000018 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain/Models/UserProfile.swift; sourceTree = "<group>"; };
+		B00000000000000000000019 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Conversation/ConversationView.swift; sourceTree = "<group>"; };
+		B00000000000000000000020 /* ConversationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Conversation/ConversationViewModel.swift; sourceTree = "<group>"; };
+		B00000000000000000000021 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Exercise/ExerciseView.swift; sourceTree = "<group>"; };
+		B00000000000000000000022 /* ExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Exercise/ExerciseViewModel.swift; sourceTree = "<group>"; };
+		B00000000000000000000023 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/History/HistoryView.swift; sourceTree = "<group>"; };
+		B00000000000000000000024 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/HomeView.swift; sourceTree = "<group>"; };
+		B00000000000000000000025 /* ListeningExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Listening/ListeningExerciseView.swift; sourceTree = "<group>"; };
+		B00000000000000000000026 /* ListeningExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Listening/ListeningExerciseViewModel.swift; sourceTree = "<group>"; };
+		B00000000000000000000027 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Onboarding/OnboardingView.swift; sourceTree = "<group>"; };
+		B00000000000000000000028 /* LessonReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Reports/LessonReportView.swift; sourceTree = "<group>"; };
+		B00000000000000000000029 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		B00000000000000000000030 /* CorrectionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Shared/CorrectionCardView.swift; sourceTree = "<group>"; };
+		B00000000000000000000031 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Shared/PrimaryButton.swift; sourceTree = "<group>"; };
+		B00000000000000000000032 /* TranscriptBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Shared/TranscriptBubble.swift; sourceTree = "<group>"; };
+		B00000000000000000000033 /* ViewModelHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Shared/ViewModelHolder.swift; sourceTree = "<group>"; };
+		B00000000000000000000034 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AI/AIService.swift; sourceTree = "<group>"; };
+		B00000000000000000000035 /* BackendAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AI/BackendAIService.swift; sourceTree = "<group>"; };
+		B00000000000000000000036 /* MockAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AI/MockAIService.swift; sourceTree = "<group>"; };
+		B00000000000000000000037 /* AppleSpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/Speech/AppleSpeechRecognitionService.swift; sourceTree = "<group>"; };
+		B00000000000000000000038 /* SpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/Speech/SpeechRecognitionService.swift; sourceTree = "<group>"; };
+		B00000000000000000000039 /* AppleTextToSpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/TTS/AppleTextToSpeechService.swift; sourceTree = "<group>"; };
+		B00000000000000000000040 /* TextToSpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/TTS/TextToSpeechService.swift; sourceTree = "<group>"; };
+		B00000000000000000000041 /* MockAIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAIServiceTests.swift; sourceTree = "<group>"; };
+		B00000000000000000000042 /* TeacherResponseParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherResponseParsingTests.swift; sourceTree = "<group>"; };
+		B00000000000000000000043 /* EnglishCoachApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishCoachApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000044 /* EnglishCoachAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnglishCoachAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F00000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		F00000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G00000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				G00000000000000000000002 /* EnglishCoachApp */,
+				G00000000000000000000003 /* EnglishCoachAppTests */,
+				G00000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G00000000000000000000002 /* EnglishCoachApp */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000001 /* AppRootView.swift */,
+				B00000000000000000000002 /* EnglishCoachApp.swift */,
+				B00000000000000000000003 /* AppConfiguration.swift */,
+				B00000000000000000000004 /* AppContainer.swift */,
+				B00000000000000000000005 /* AppError.swift */,
+				B00000000000000000000006 /* AppState.swift */,
+				B00000000000000000000007 /* Coding.swift */,
+				B00000000000000000000008 /* MockExerciseProvider.swift */,
+				B00000000000000000000009 /* LessonHistoryStore.swift */,
+				B00000000000000000000010 /* CEFRLevel.swift */,
+				B00000000000000000000011 /* CorrectionIntensity.swift */,
+				B00000000000000000000012 /* LearningGoal.swift */,
+				B00000000000000000000013 /* PracticeModule.swift */,
+				B00000000000000000000014 /* SpeakerRole.swift */,
+				B00000000000000000000015 /* ConversationModels.swift */,
+				B00000000000000000000016 /* ExerciseModels.swift */,
+				B00000000000000000000017 /* LessonReport.swift */,
+				B00000000000000000000018 /* UserProfile.swift */,
+				B00000000000000000000019 /* ConversationView.swift */,
+				B00000000000000000000020 /* ConversationViewModel.swift */,
+				B00000000000000000000021 /* ExerciseView.swift */,
+				B00000000000000000000022 /* ExerciseViewModel.swift */,
+				B00000000000000000000023 /* HistoryView.swift */,
+				B00000000000000000000024 /* HomeView.swift */,
+				B00000000000000000000025 /* ListeningExerciseView.swift */,
+				B00000000000000000000026 /* ListeningExerciseViewModel.swift */,
+				B00000000000000000000027 /* OnboardingView.swift */,
+				B00000000000000000000028 /* LessonReportView.swift */,
+				B00000000000000000000029 /* SettingsView.swift */,
+				B00000000000000000000030 /* CorrectionCardView.swift */,
+				B00000000000000000000031 /* PrimaryButton.swift */,
+				B00000000000000000000032 /* TranscriptBubble.swift */,
+				B00000000000000000000033 /* ViewModelHolder.swift */,
+				B00000000000000000000034 /* AIService.swift */,
+				B00000000000000000000035 /* BackendAIService.swift */,
+				B00000000000000000000036 /* MockAIService.swift */,
+				B00000000000000000000037 /* AppleSpeechRecognitionService.swift */,
+				B00000000000000000000038 /* SpeechRecognitionService.swift */,
+				B00000000000000000000039 /* AppleTextToSpeechService.swift */,
+				B00000000000000000000040 /* TextToSpeechService.swift */,
+			);
+			path = EnglishCoachApp;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000003 /* EnglishCoachAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000041 /* MockAIServiceTests.swift */,
+				B00000000000000000000042 /* TeacherResponseParsingTests.swift */,
+			);
+			path = EnglishCoachAppTests;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000043 /* EnglishCoachApp.app */,
+				B00000000000000000000044 /* EnglishCoachAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00000000000000000000001 /* EnglishCoachApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H00000000000000000000001 /* Build configuration list for PBXNativeTarget "EnglishCoachApp" */;
+			buildPhases = (
+				I00000000000000000000001 /* Sources */,
+				F00000000000000000000001 /* Frameworks */,
+				J00000000000000000000001 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = EnglishCoachApp;
+			productName = EnglishCoachApp;
+			productReference = B00000000000000000000043 /* EnglishCoachApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E00000000000000000000002 /* EnglishCoachAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H00000000000000000000002 /* Build configuration list for PBXNativeTarget "EnglishCoachAppTests" */;
+			buildPhases = (
+				I00000000000000000000002 /* Sources */,
+				F00000000000000000000002 /* Frameworks */,
+				J00000000000000000000002 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (
+				K00000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = EnglishCoachAppTests;
+			productName = EnglishCoachAppTests;
+			productReference = B00000000000000000000044 /* EnglishCoachAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E00000000000000000000001 = { CreatedOnToolsVersion = 16.0; };
+					E00000000000000000000002 = { CreatedOnToolsVersion = 16.0; TestTargetID = E00000000000000000000001; };
+				};
+			};
+			buildConfigurationList = H00000000000000000000003 /* Build configuration list for PBXProject "EnglishCoachApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = G00000000000000000000001;
+			productRefGroup = G00000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00000000000000000000001 /* EnglishCoachApp */,
+				E00000000000000000000002 /* EnglishCoachAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		J00000000000000000000001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		J00000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		I00000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000001, A00000000000000000000002, A00000000000000000000003, A00000000000000000000004,
+				A00000000000000000000005, A00000000000000000000006, A00000000000000000000007, A00000000000000000000008,
+				A00000000000000000000009, A00000000000000000000010, A00000000000000000000011, A00000000000000000000012,
+				A00000000000000000000013, A00000000000000000000014, A00000000000000000000015, A00000000000000000000016,
+				A00000000000000000000017, A00000000000000000000018, A00000000000000000000019, A00000000000000000000020,
+				A00000000000000000000021, A00000000000000000000022, A00000000000000000000023, A00000000000000000000024,
+				A00000000000000000000025, A00000000000000000000026, A00000000000000000000027, A00000000000000000000028,
+				A00000000000000000000029, A00000000000000000000030, A00000000000000000000031, A00000000000000000000032,
+				A00000000000000000000033, A00000000000000000000034, A00000000000000000000035, A00000000000000000000036,
+				A00000000000000000000037, A00000000000000000000038, A00000000000000000000039, A00000000000000000000040,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		I00000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (A00000000000000000000041, A00000000000000000000042);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		K00000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = E00000000000000000000001 /* EnglishCoachApp */; targetProxy = C00000000000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		L00000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		L00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		L00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EnglishCoachApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apifort.englishcoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		L00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EnglishCoachApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apifort.englishcoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		L00000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apifort.englishcoach.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnglishCoachApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EnglishCoachApp";
+			};
+			name = Debug;
+		};
+		L00000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apifort.englishcoach.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnglishCoachApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EnglishCoachApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		H00000000000000000000001 /* Build configuration list for PBXNativeTarget "EnglishCoachApp" */ = {isa = XCConfigurationList; buildConfigurations = (L00000000000000000000003, L00000000000000000000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		H00000000000000000000002 /* Build configuration list for PBXNativeTarget "EnglishCoachAppTests" */ = {isa = XCConfigurationList; buildConfigurations = (L00000000000000000000005, L00000000000000000000006); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		H00000000000000000000003 /* Build configuration list for PBXProject "EnglishCoachApp" */ = {isa = XCConfigurationList; buildConfigurations = (L00000000000000000000001, L00000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = D00000000000000000000001 /* Project object */;
+}
+
